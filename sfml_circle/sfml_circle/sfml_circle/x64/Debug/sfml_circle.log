@@ -1,0 +1,9 @@
+﻿  sfml_circle.cpp
+C:\Users\conne\source\repos\sfml_circle\sfml_circle\sfml_circle.cpp(9,30): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\conne\source\repos\sfml_circle\sfml_circle\sfml_circle.cpp(36,29): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\conne\source\repos\sfml_circle\sfml_circle\sfml_circle.cpp(37,29): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\conne\source\repos\sfml_circle\sfml_circle\sfml_circle.cpp(67,33): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\conne\source\repos\sfml_circle\sfml_circle\sfml_circle.cpp(67,29): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\conne\source\repos\sfml_circle\sfml_circle\sfml_circle.cpp(68,33): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\conne\source\repos\sfml_circle\sfml_circle\sfml_circle.cpp(68,29): warning C4244: '인수': 'int'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+  sfml_circle.vcxproj -> C:\Users\conne\source\repos\sfml_circle\sfml_circle\x64\Debug\sfml_circle.exe
