@@ -1,1 +1,2 @@
 C:\Users\conne\source\repos\sfml_circle\sfml_circle\x64\Debug\sfml_circle.exe
+C:\Users\conne\SFML_study\sfml_circle\sfml_circle\x64\Debug\sfml_circle.exe

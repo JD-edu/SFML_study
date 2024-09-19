@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\conne\\source\\repos\\sfml_circle\\",
+  "WorkspaceRootPath": "C:\\Users\\conne\\SFML_study\\sfml_circle\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FC00D10C-2F0B-44C7-B960-82EE67A331B7}|sfml_circle\\sfml_circle.vcxproj|C:\\Users\\conne\\source\\repos\\sfml_circle\\sfml_circle\\sfml_circle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{FC00D10C-2F0B-44C7-B960-82EE67A331B7}|sfml_circle\\sfml_circle.vcxproj|C:\\Users\\conne\\SFML_study\\sfml_circle\\sfml_circle\\sfml_circle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{FC00D10C-2F0B-44C7-B960-82EE67A331B7}|sfml_circle\\sfml_circle.vcxproj|solutionrelative:sfml_circle\\sfml_circle.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "sfml_circle.cpp",
-              "DocumentMoniker": "C:\\Users\\conne\\source\\repos\\sfml_circle\\sfml_circle\\sfml_circle.cpp",
+              "DocumentMoniker": "C:\\Users\\conne\\SFML_study\\sfml_circle\\sfml_circle\\sfml_circle.cpp",
               "RelativeDocumentMoniker": "sfml_circle\\sfml_circle.cpp",
-              "ToolTip": "C:\\Users\\conne\\source\\repos\\sfml_circle\\sfml_circle\\sfml_circle.cpp",
+              "ToolTip": "C:\\Users\\conne\\SFML_study\\sfml_circle\\sfml_circle\\sfml_circle.cpp",
               "RelativeToolTip": "sfml_circle\\sfml_circle.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEwAAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-09-13T05:24:03.507Z",
               "EditorCaption": ""
