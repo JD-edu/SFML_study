@@ -28,10 +28,25 @@ void Enemy::update(sf::RenderWindow& win) {
     win.draw(c);
 }
 
+// zigzag ENemy 클래스의 상속받는 클래스 
+class Zigzag : public Enemy {
+public:
+    void update(sf::RenderWindow& win);
+    int i = 1;
+};
+
+void Zigzag::update(sf::RenderWindow& win) {
+    c.move(i*( - 1) * 20, 5);
+    if (c.getPosition().y > 480) {
+        c.setPosition(rand() % 640, 0);
+    }
+    win.draw(c);
+}
+
 int main()
 {
     Enemy e1, e2, e3, e4;
-    //Zigzag z1;
+    Zigzag z1;
     sf::RenderWindow window(sf::VideoMode(800, 600), "SFML Window");
 
     sf::Texture texture;
@@ -57,7 +72,7 @@ int main()
         e3.update(window);
         e4.update(window);
         e1.changeSize(rand() % 100);
-        //z1.update(window);
+        z1.update(window);
         window.display();
     }
 
