@@ -1,61 +1,27 @@
 ﻿#include <SFML/Graphics.hpp>
 
-class Enemy {
-public:
-    Enemy();
-    void update(sf::RenderWindow& win);
-    void changeSize(int r);
-    sf::CircleShape c;
-private:
-
-};
-
-void Enemy::changeSize(int r) {
-    c.setRadius(r);
-}
-
-Enemy::Enemy() {
-    c.setFillColor(sf::Color::Yellow);
-    c.setPosition(rand() % 640, 0);
-    c.setRadius(40);
-}
-
-void Enemy::update(sf::RenderWindow& win) {
-    c.move(0, 5);
-    if (c.getPosition().y > 480) {
-        c.setPosition(rand() % 640, 0);
-    }
-    win.draw(c);
-}
-
-// zigzag ENemy 클래스의 상속받는 클래스 
-class Zigzag : public Enemy {
-public:
-    void update(sf::RenderWindow& win);
-    int i = 1;
-};
-
-void Zigzag::update(sf::RenderWindow& win) {
-    c.move(i*( - 1) * 20, 5);
-    if (c.getPosition().y > 480) {
-        c.setPosition(rand() % 640, 0);
-    }
-    win.draw(c);
-}
-
 int main()
 {
-    Enemy e1, e2, e3, e4;
-    Zigzag z1;
-    sf::RenderWindow window(sf::VideoMode(800, 600), "SFML Window");
+    // 윈도우 생성
+    sf::RenderWindow window(sf::VideoMode(800, 600), "SFML Text Example");
 
-    sf::Texture texture;
-    texture.loadFromFile("./ddong.png");
+    // 폰트 파일 로드
+    sf::Font font;
+    if (!font.loadFromFile("arial.ttf"))
+    {
+        // 폰트 로드 실패 시 에러 처리
+        return EXIT_FAILURE;
+    }
 
-    sf::Sprite sprite;
-    sprite.setTexture(texture);
-    sprite.setPosition(100, 100);
-    window.setFramerateLimit(60);
+    // 텍스트 객체 생성
+    sf::Text text;
+    text.setFont(font);
+    text.setString("Hello, SFML!");
+    text.setCharacterSize(24);
+    text.setFillColor(sf::Color::Red);
+    text.setPosition(100, 100);
+
+    // 게임 루프
     while (window.isOpen())
     {
         sf::Event event;
@@ -65,14 +31,8 @@ int main()
                 window.close();
         }
 
-        window.clear();
-        window.draw(sprite);
-        e1.update(window);
-        e2.update(window);
-        e3.update(window);
-        e4.update(window);
-        e1.changeSize(rand() % 100);
-        z1.update(window);
+        window.clear(sf::Color::White);
+        window.draw(text);
         window.display();
     }
 
